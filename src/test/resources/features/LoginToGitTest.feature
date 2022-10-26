@@ -22,6 +22,5 @@ Feature: BDD tests for Amazon
     Examples:
     | itemName |
     | mhsdgvckjasdhvkseuyvbckuvhbUOY@GEUYWGAFDO&WT |
-    | ":P@{POU%*AOHSN:QIUH@U" |
     | __+!_#GIHB@OUBT728t4819 |
     | 1512heOY@GE6g2lvr12iygo8yu3vr |
