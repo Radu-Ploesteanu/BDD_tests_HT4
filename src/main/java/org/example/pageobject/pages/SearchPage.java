@@ -5,8 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import static org.example.pageobject.utils.TypesOfData.VALID_INPUT;
-import static org.example.pageobject.utils.TypesOfData.WRONG_INPUT;
+import static org.example.pageobject.utils.TypesOfData.*;
 
 public class SearchPage extends BasePage {
     public SearchPage(WebDriver webDriver) {
@@ -21,7 +20,7 @@ public class SearchPage extends BasePage {
     }
 
     public String validateResultText() {
-        WebElement errorMessage = webDriver.findElement(By.xpath("//span[text()='No results for ']/.."));
+        WebElement errorMessage = getElementBy(XPATH, "//span[text()='No results for ']/..", 10);
 
         return errorMessage.getText();
     }
