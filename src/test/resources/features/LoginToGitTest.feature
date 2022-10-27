@@ -23,4 +23,4 @@ Feature: BDD tests for Amazon
     | itemName |
     | mhsdgvckjasdhvkseuyvbckuvhbUOY@GEUYWGAFDO&WT |
     | __+!_#GIHB@OUBT728t4819 |
-    | 1512heOY@GE6g2lvr12iygo8yu3vr |
+    | 1512heOY@GE65234151g2lvr12iygo8yu3vr |
